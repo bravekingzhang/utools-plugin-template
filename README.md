@@ -15,7 +15,7 @@
 - git clone 本项目
 - yarn && yarn start  会启动一个 local server ，监听3000端口，utools开发模式可以指向 local server，具体可以看plugin.json描述
 - 在utools开发者工具中创建项目，配置plugin文件目录为 dist 目录下的那个即可开始开发了，如下图
-<img src="https://github.com/bravekingzhang/utools-plugin-template/blob/main/utools-config.png" alt="配置" style="width: 40%;" />
+<img src="https://github.com/bravekingzhang/utools-plugin-template/blob/main/doc/utoos-config.png" alt="配置" style="width: 40%;" />
 
 #### 打包
 yarn build 会打包构建项目，构建会在dist目录下面，当然也感谢@csj8520大佬写的vite插件同时构建了一个.upx。
