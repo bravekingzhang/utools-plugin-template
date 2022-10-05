@@ -3,6 +3,12 @@
 ## 参考 https://github.com/csj8520/utools-plugin-tinypng
 感谢 @csj8520 大佬，拜读了该项目源码，想着后续如果如果开发者要实现功能强大的插件，有一个模板应该会方便很多
 
+## 特性
+
+- vue3
+- typescript
+- element-ui
+
 ## 如何使用
 
 - yarn start  会启动一个 local server ，监听3000端口，utools开发模式可以指向 local server，具体可以看plugin.json描述
@@ -16,6 +22,11 @@
 
 ## 版本记录
 
-
 ### 1.0.0
 - 从 https://github.com/csj8520/utools-plugin-tinypng 项目构造模板
+
+### 赞赏
+
+如果贵客觉得有用，可以打赏我一杯咖啡。
+
+<img src="https://github.com/bravekingzhang/utools-code2flow-official/blob/main/shoukuanma.png" alt="收款码" style="width: 40%;" />
