@@ -5,6 +5,10 @@
 
 ## 如何使用
 
+- yarn start  会启动一个 local server ，监听3000端口，utools开发模式可以指向 local server，具体可以看plugin.json描述
+- 在utools开发者工具中床架项目，配置plugin文件目录为 dist 目录下的那个即可开始开发了
+- yarn build 会打包构建项目，构建会在dist目录下面，当然也@csj8520大佬也帮构建了一个.upx，上传插件可以直接使用dist 目录下的上传。.upx可以拿来分享
+
 ## 版本记录
 
 
