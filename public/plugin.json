@@ -1,0 +1,31 @@
+{
+  "name": "author",
+  "pluginName": "pluginName",
+  "description": "plugin description",
+  "author": "https://github.com/bravekingzhang",
+  "homepage": "https://github.com/bravekingzhang/your-plugin-name",
+  "version": "1.0.0",
+  "logo": "logo.png",
+  "main": "index.html",
+  "preload": "preload.js",
+  "development": {
+    "main": "http://127.0.0.1:3000",
+    "preload": "preload.js"
+  },
+  "features": [
+    {
+      "code": "plugin",
+      "explain": "description",
+      "cmds": [
+        "plugin",
+        "description",
+        {
+          "type": "files",
+          "fileType": "file",
+          "match": "/\\.(png|jpeg|jpg|webp)$/i",
+          "label": "压缩图片"
+        }
+      ]
+    }
+  ]
+}
