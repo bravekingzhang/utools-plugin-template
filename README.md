@@ -17,6 +17,8 @@
 - 在utools开发者工具中创建项目，配置plugin文件目录为 dist 目录下的那个即可开始开发了，如下图
 <img src="https://github.com/bravekingzhang/utools-plugin-template/blob/main/doc/utoos-config.png" alt="配置" style="width: 40%;" />
 
+Volar 取代了之前为 Vue 2 提供的官方 VSCode 扩展 Vetur。如果你之前已经安装了 Vetur，请确保在 Vue 3 的项目中禁用它。
+
 #### 打包
 yarn build 会打包构建项目，构建会在dist目录下面，当然也感谢@csj8520大佬写的vite插件同时构建了一个.upx。
 - 上传插件可以直接使用dist 目录下的上传。

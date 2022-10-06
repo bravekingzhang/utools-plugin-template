@@ -13,3 +13,5 @@ const props = defineProps({
 
 const computedData = computed(() => (props.data || 0) + 1);
 </script>
+
+// ts 是用参考这里 https://blog.csdn.net/qq_25186543/article/details/121954169

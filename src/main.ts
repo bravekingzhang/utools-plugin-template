@@ -5,6 +5,7 @@ import { ElNotification } from 'element-plus';
 
 import 'element-plus/theme-chalk/el-overlay.css';
 import 'element-plus/theme-chalk/dark/css-vars.css';
+//注意，引用组件需要手动import 样式，比如el-image
 import relativeTime from 'dayjs/plugin/relativeTime';
 
 import './style.css';
