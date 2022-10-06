@@ -12,7 +12,16 @@ export default defineConfig({
   plugins: [
     vue(),
     createStyleImportPlugin({
-      resolves: [ElementPlusResolve()]
+      resolves: [ElementPlusResolve()],
+      // libs: [//貌似这个方式不OK啊
+      //   {
+      //     libraryName: 'element-plus',
+      //     esModule: true,
+      //     resolveStyle: (name: string) => {
+      //        return `element-plus/theme-chalk/${name}.css`
+      //     }
+      //   }
+      // ]
     }),
     createPreloadPlugin({
       // name: 'window.preload',
