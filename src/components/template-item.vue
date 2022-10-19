@@ -3,7 +3,7 @@
 <style lang="scss" scoped></style>
 
 <script lang="ts" setup>
-import { computed } from "vue";
+import { defineProps, computed } from "vue";
 
 const props = defineProps({
   data: { type: Number, required: true },
